@@ -1,0 +1,4 @@
+﻿Instructions - 2:
+1.  Make an IFoo interface.
+2.  Update all unit tests to use that interface. Use moq library
+
