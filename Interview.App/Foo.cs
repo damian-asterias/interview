@@ -14,18 +14,5 @@
     */
     public class Foo
     {
-        public bool IsPalindrome(string value)
-        {
-            if(value == null)
-            {
-                throw new ArgumentNullException("value");
-            }
-            for (int i = 0; i < value.Length/2; i++)
-            {
-                if (value[i] != value[value.Length - i - 1])
-                    return false;
-            }
-            return true;
-        }
     }
 }
