@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="instructions-1.txt" />
+    <None Remove="instructions-2.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="instructions-1.txt" />
+    <Compile Include="instructions-2.txt" />
+  </ItemGroup>
+
 </Project>
